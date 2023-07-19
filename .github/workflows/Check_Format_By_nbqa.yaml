@@ -6,9 +6,6 @@ name: CI Pipe
 on:
   pull_request:
     branches: [ "main" ]
-    paths:
-      - 'notebooks/**'
-      - '.github/workflows/**'
   push:
     branches: [ "main" ]
     paths:
