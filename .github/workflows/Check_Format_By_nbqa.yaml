@@ -8,9 +8,6 @@ on:
     branches: [ "main" ]
   push:
     branches: [ "main" ]
-    paths:
-      - 'notebooks/**'
-      - '.github/workflows/**'
 
 permissions:
   contents: read
@@ -30,4 +27,4 @@ jobs:
         pip install -r requirements.txt
         pip install --upgrade flake8 importlib-metadata
     - name: Run nbqa
-      run: nbqa flake8 ./notebooks/*.ipynb
+      run: nbqa flake8 ./*.ipynb
