@@ -48,16 +48,6 @@ chmod u+x prepare_dataset.sh
 ./prepare_dataset.sh
 ````
 
-### docker env
-ubuntu 16.04 python 3.5.2 with various of ML/DL packages including tensorflow, sklearn, MindSpore
-
-`docker pull dsksd/deepstudy:0.2`
-
-````
-pip3 install docker-compose
-cd script
-docker-compose up -d
-````
 
 ### cloud setting
 
