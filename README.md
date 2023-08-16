@@ -30,7 +30,7 @@ This material is not perfect but will help your study and research:) Please feel
 ## Requirements
 
 - Python 3.7
-- MindSpore 2.1
+- MindSpore 2.0
 - nltk 3.2.2
 - gensim 2.2.0
 - sklearn_crfsuite
@@ -48,10 +48,6 @@ chmod u+x prepare_dataset.sh
 ./prepare_dataset.sh
 ````
 
-
-### cloud setting
-
-`not yet`
 
 ## Author
 
